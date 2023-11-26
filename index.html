@@ -8,6 +8,7 @@
    <link rel="stylesheet" href=style.css>
    <link rel="stylesheet" href="bootstrap.min.css">
   <body>
+    <!-- nav -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
         <nav class="navbar navbar-light bg-light">
@@ -42,91 +43,109 @@
         </div>
       </div>
     </nav>
-    <header class="container-header">
+    <!-- carrousel -->
+    <header class="container-header w-100">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"class="z-n1">
       <div class="carousel-inner" class="card text-bg-dark">
       <img src="..." class="card-img" alt="...">     
         <div class="carousel-item active 2s z-n1">
-          <img src="imagenes_integrador_front/ba1.jpg" class= "img-thumbnails" class="d-block w-100" alt="..."style="opacity: 40%">
+          <img src="imagenes_integrador_front/ba1.jpg" class= "img-thumbnails" class="d-block w-100" alt="..."style="opacity: 50%">
         </div>
         <div class="carousel-item z-n1">
-          <img src="imagenes_integrador_front/ba2.jpg" class= "img-thumbnails" class="d-block w-100" alt="..."style="opacity:40%">
+          <img src="imagenes_integrador_front/ba2.jpg" class= "img-thumbnails" class="d-block w-100" alt="..."style="opacity:50%">
         </div>
         <div class="carousel-item z-n1">
           <img src="imagenes_integrador_front/ba3.jpg" class= "img-thumbnails" class="d-block w-100" alt="..."
-          style="opacity:40%"> 
+          style="opacity:50%;"> 
         </div>  
-        <div class="row d-flex justify-content-center justify-content-md-end mt-md-5 mt-sm-1  gy-5 text-white text-center z-2">
-          <div>
-           <h1 class="card-title">Conf Bs As</h1>
+          <div class="row d-flex justify-content-center justify-content-md-end mt-md-5 mt-sm-1  gy-5 text-white text-center z-2">
+            <div class="col-12 w-75 text-lg-center text-md-end text-sm-center">
+              <h1 class="m-lg-5">Conf Bs As</h1>
+            </div>
+            <!-- texto -->
+          <div class="col-12 w-75 text-md-end text-sm-center">
+            <h4 class="card-text; w-75"> Bs As llega por primera vez a Argentina.
+           Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Van a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. <br>
+           ¡Te esperamos!</h4>
           </div>
-          <div>
-            <p class="card-text; w-75">Bs As llega por primera vez a Argentina.
-           Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Van a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti.</p>
-           <p> ¡Te esperamos!</p>
-          </div>
-          </div>
-        <div class="z-2">
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> 
-      </div>
+          <!-- botones header -->
       <div clas="justify-content-center">
           <a href="#">
-          <button type="button" class="btn btn-outline-light m-2 p-1 border border-3 border-dark">Quiero ser orador</button></a>
+          <button type="button" class="btn btn-outline-light m-3 p-2 border border-3 border-dark p-2 m-3">Quiero ser orador</button></a>
           <a href="#">
-          <button type="button" action="tickets.html" ;method="get"; class="btn btn-success m-2 p-1">Comprar tickets</button></a>
+          <button type="button" action="tickets.html" ;method="get"; class="btn btn-success m-3 p-2">Comprar tickets</button></a>
       </div>
     </header>
       <br><br> 
-    <section class="row justify-content-center">
-        <div class="card align align-content-lg-start"; style="width: 30vw; padding: 15px">
+      <!-- sección tarjetas -->
+    <section class="container fluid mt-8 mb-8">
+      <div class="row m-5">
+        <div class="col-12 text-center">
+          <br><br>
+          <h4>Conoce a los </h4>
+          <h2>ORADORES</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+          <div class="card m-2 mx-auto bg-white p-1"; style="width: 20rem">
             <img  class="img-fluid shadow rounded mt-1 mb-1" src="imagenes_integrador_front/steve.jpg" alt="Steve Jobs">
             <div class="card-body">
-                <a href="#" class="btn btn-warning text-center m-3">Javascript</a>
-                <a href="#" class="btn btn-info text-center m-3">React</a>    
-                <h5 class="card-title">Steve Jobs</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt, nam quia eaque soluta reiciendis ipsum magni sunt similique labore, autem esse consequuntur rem nihil, harum nisi sapiente! Molestias necessitatibus aliquid placeat obcaecati recusandae, nulla voluptatem similique accusamus libero nobis a sed, assumenda perspiciatis harum maxime esse! Incidunt, doloremque quas.</p>
+                    <a href="#" class="btn btn-warning text-center m-2">Javascript</a>
+                    <a href="#" class="btn btn-info text-center m-2">React</a>    
+                     <h5 class="card-title text-body-emphasis">Steve Jobs</h5>
+                     <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt, nam quia eaque soluta reiciendis ipsum magni sunt similique labore, autem esse consequuntur rem nihil, harum nisi sapiente! Molestias necessitatibus aliquid placeat obcaecati recusandae, nulla voluptatem similique accusamus libero nobis a sed, assumenda perspiciatis harum maxime esse! Incidunt, doloremque quas.</p>
             </div>
-        </div>
-        <br><br><br>
-        <div class="card align align-content-lg-start"; style="width: 30vw; padding: 15px">
+          </div>
+        </div>    
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">  
+          <div class="card m-2 mx-auto bg-white p-1"; style= "width:20rem">
           <img  class="img-fluid shadow rounded mt-1 mb-1" src="imagenes_integrador_front/bill.jpg" alt="Bill">
           <div class="card-body">
-              <a href="#" class="btn btn-warning text-center m-3">Javascript</a>
-              <a href="#" class="btn btn-info text-center m-3">React</a> 
-              <h5 class="card-title">Bill Gates</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt, nam quia eaque soluta reiciendis ipsum magni sunt similique labore, autem esse consequuntur rem nihil, harum nisi sapiente! Molestias necessitatibus aliquid placeat obcaecati recusandae, nulla voluptatem similique accusamus libero nobis a sed, assumenda perspiciatis harum maxime esse! Incidunt, doloremque quas.</p>
+               
+               <a href="#" class="btn btn-warning text-center m-2">Javascript</a>
+                <a href="#" class="btn btn-info text-center m-2">React</a> 
+                <h5 class="card-title text-body-emphasis">Bill Gates</h5> 
+                <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt, nam quia eaque soluta reiciendis ipsum magni sunt similique labore, autem esse consequuntur rem nihil, harum nisi sapiente! Molestias necessitatibus aliquid placeat obcaecati recusandae, nulla voluptatem similique accusamus libero nobis a sed, assumenda perspiciatis harum maxime esse! Incidunt, doloremque quas.</p>
+          </div>
           </div>
         </div>
-        <div class="card align align-content-lg-start"; style="width: 30vw; padding: 15px">
-          <img  class="img-fluid shadow rounded mt-1 mb-1" src="imagenes_integrador_front/ada.jpeg" alt="Ada">
-          <div class="card-body">
-              <a href="#" class="btn btn-warning text-center m-3">Negocios</a>
-              <a href="#" class="btn btn-danger text-center m-3">Startups</a>    
-              <h5 class="card-title">Ada Lovelace</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt, nam quia eaque soluta reiciendis ipsum magni sunt similique labore, autem esse consequuntur rem nihil, harum nisi sapiente! Molestias necessitatibus aliquid placeat obcaecati recusandae, nulla voluptatem similique accusamus libero nobis a sed, assumenda perspiciatis harum maxime esse! Incidunt, doloremque quas.</p>
-          </div>
-        </div>  
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4"> 
+          <div class="card m-2 mx-auto bg-white p-1"; style="width: 20rem">
+          <img  class="img-fluid shadow rounded mt-1 mb-1"
+          src="imagenes_integrador_front/ada.jpeg" alt="Ada">
+            <div class="card-body"> 
+              <a href="#" class="btn btn-warning text-center m-2">Negocios</a>
+              <a href="#" class="btn btn-danger text-center m-2">Startups</a>    
+              <h5 class="card-title text-body-emphasis">Ada Lovelace</h5>
+              <p class="card-text text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt, nam quia eaque soluta reiciendis ipsum magni sunt similique labore, autem esse consequuntur rem nihil, harum nisi sapiente! Molestias necessitatibus aliquid placeat obcaecati recusandae, nulla voluptatem similique accusamus libero nobis a sed, assumenda perspiciatis harum maxime esse! Incidunt, doloremque quas.</p>
+            </div>
+          </div>  
+        </div> 
     </section>
       <br><br><br><br>
-    <section class="d-print-inline-flex text-center border bs-tooltip-top 15px mb-5">
-          <div class="container-fluid">
-            <div>
-              <p class="col-6 mt-4 mb-4">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium iure in sunt officia illo! Odit, nisi. Nostrum cupiditate dolores quia officiis quidem magni architecto non placeat ipsum, sapiente molestias voluptatibus.
-              </p>
-            </div>
-            <div class=" col-6">
-              <img  class="img-fluid shadow rounded mt-4 mb-4 "src="imagenes_integrador_front/honolulu.jpg" alt="playa">
-            </div>
+
+     <!-- sección fotos octubre -->
+    <section class="container-fluid">
+      <br><br>
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 g-0">
+              <img  class="img-fluid h-100"src="imagenes_integrador_front/honolulu.jpg" alt="playa">
           </div>
-        </section>
+          <div class="col-sm-12 col-lg-6  bg-white text-black text-sm-center text-md-center text-lg-start p-4">
+              <h2>
+                  Buenos Aires - Octubre
+              </h2>
+              <p>
+              Buenos Aires es la provincia y localidad más grande del estado de Argentina; en los Estados Unidos, Honolulu es la más sureña entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).
+              </p>
+              <a href="#">
+                <button type="button" action="#"; class="btn btn-close-white m-3 p-2 text-black text-body-emphasis" >Conocé más</button></a>
+            <div>
+        </div>               
+    </section>   
+    <br><br>
+      <!-- form -->
       <section class="contact py-5 bg-light">
 			<div class="container">
 				<div class="row">
@@ -151,6 +170,7 @@
 										<label for="message" class="form-label">Mensaje</label>
 										<textarea name="" id="" cols="30" rows="15" class="form-control" placeholder="Sobre qué quieres hablar"></textarea>
 									</div>
+                  <h6>Recuerda incluir un título para tu charla</h6>
 									<input type="submit" value="Enviar" class="btn btn-success w-100" />
 								</form>
 							</div>
@@ -158,9 +178,11 @@
 					</div>
 				</div>
 		</section>
-    <div class="mainfooter p-4r bg-primary text bg-opacity-25 h- mh-100">
+    <br><br>
+    <!-- footer -->
+    <div class="mainfooter p-4r bg-primary h- mh-100">
 			<div class="container fluid">
-				<div class="row justify-content-lg-evenly">
+				<div class="row justify-content-lg-around">
 					<div class ="col-xxl-1 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12 align-items-lg-end" style="font-size: 18px">
             <a href = "#" class="text-decoration-none">Preguntas frecuentes</a>
           </div>
