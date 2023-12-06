@@ -32,6 +32,6 @@ function calcularPago(){
 }
 
 btnResumen.addEventListener("click", (e)=> {
-        e.preventDefault();      //incluir preventDefault en cada caso de botones//
+        e.preventDefault();      
         calcularPago();
 });    
